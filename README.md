@@ -1,3 +1,5 @@
+![Screenshot Aplikasi](public/dasboard.png)
+
 # 🍽️ Unklab Dining System
 > **The Next Generation of Campus Dining Experience**
 

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    /* Ini yang mengatur warna background otomatis saat dark mode */
+    @apply bg-amber-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-50 transition-colors duration-300;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full dark:bg-slate-700;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-300 dark:bg-slate-600;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}

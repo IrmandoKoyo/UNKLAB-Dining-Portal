@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/frontendclass",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/frontendclass/assets/:path*",
+      "destination": "/assets/:path*"
+    },
+    {
+      "source": "/frontendclass/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
